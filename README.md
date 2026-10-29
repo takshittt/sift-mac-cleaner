@@ -63,6 +63,10 @@ Without those variables it still builds the DMG, but with an ad-hoc signed app t
 
 To change the app icon, edit and rerun `swift scripts/make-icon.swift`.
 
+## Website
+
+`frontend/` is the download website (Vite + React + TypeScript + Tailwind v4, static, for GitHub Pages). Its planning docs are in [frontend/docs/](frontend/docs/). Run `npm install`, then `npm run dev` or `npm run build` from inside `frontend/`. Its copy mirrors this README and [docs/intent.md](docs/intent.md), so update both when areas, safety rules or install steps change.
+
 ## Documentation
 
 - [docs/intent.md](docs/intent.md): what Sift is for and the safety rules
